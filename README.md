@@ -4,8 +4,8 @@
 
 **Solve problems facing the industries, SYMPLY.**  
 
-At SYMPLY Lab, we develop optimization methods by leveraging mathematical programming and machine learning.  
-Our goal is to tackle decision-making problems arising in various industrial systems, making them more understandable and solvable—SYMPLY.  
+At SYMPLY Lab, we develop optimization methods by using mathematical programming and machine learning.  
+Our goal is to tackle decision-making problems arising in various industrial systems, making them more understandable and solvable — SYMPLY.  
 
 ## About This Repository
 
