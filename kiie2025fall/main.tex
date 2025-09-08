@@ -1,0 +1,157 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+%\documentclass[aspectratio=169,xcolor=dvipsnames,t,9pt]{beamer} %for 16:9 ratio slide
+\documentclass[xcolor=dvipsnames,t,9pt]{beamer}
+%\documentclass[aspectratio=169,xcolor=dvipsnames,t,9pt]{beamer} %for 16:9 ratio slide
+\usetheme{Symply}
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\urlstyle{same}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{xspace}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{float}
+
+\setbeamertemplate{bibliography item}{[\arabic{enumiv}]}
+
+\setbeamercolor{alerted text}{fg=MediumBlue}
+
+
+\usepackage{kotex}
+\usepackage{fontspec}
+\setsansfont{IBMPlexSans}[
+    Path=./IBMPlexSans/,
+    Extension = .ttf,
+    UprightFont=*-Light,
+    BoldFont=*-Medium,
+    ItalicFont=*-LightItalic,
+    BoldItalicFont=*-MediumItalic,
+    ]
+
+\usepackage[backend=biber, citestyle=verbose, sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE FOR RESEARCH PRESENTATION
+%----------------------------------------------------------------------------------------
+
+\title{DER 집합체의 분산·협조적 운영을 위한 내부 거래 가격 정책 설계}
+\subtitle{\large Internal Settlement Pricing for Decentralized and Coordinated Operations of DER Aggregations}
+\author[장서현 $|$]{\textbf{장서현(seohyun.jang@yonsei.ac.kr)} \and 권순걸(sg.kwon@yonsei.ac.kr)\inst{}}
+
+\institute[시스템 모델링 및 최적화 연구실, 연세대학교 산업공학과]
+{
+    \inst{} 시스템 모델링 및 최적화 연구실, 연세대학교 산업공학과\\\bigskip 
+    \alert{\textbf{SY}}stems \alert{\textbf{M}}odeling and \alert{\textbf{P}}rogramming \alert{\textbf{L}}ab\\
+    Department of Industrial Engineering, \alert{\textbf{Y}}onsei University - \alert{\textbf{SYMPLY}}\\(\url{https://symply.yonsei.ac.kr/})
+} % set short institute for department and institute in footline 
+
+\date[2025 대한산업공학회 추계학술대회 (2025.11.07.) $|$]
+{
+    2025 대한산업공학회 추계학술대회 (2025.11.07.)%\\\bigskip    
+    %\centerline{\includegraphics[width=0.4\textwidth]{logo.pdf}}
+} % set shortdate for course title in footline
+
+
+
+\begin{document}
+
+{
+\setbeamertemplate{headline}{} % no headline on title page
+\setbeamertemplate{footline}{} % no footline on title page
+\begin{frame}[noframenumbering] % no page count on title page
+    % Print the title page as the first slide
+    \titlepage
+\end{frame}
+}
+
+\begin{frame}{목차}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+\begin{frame}{1}
+\end{frame}
+
+\begin{frame}{2}
+\end{frame}
+
+\begin{frame}{3}
+\end{frame}
+
+\begin{frame}{4}
+\end{frame}
+
+\begin{frame}{5}
+\end{frame}
+
+\begin{frame}{6}
+\end{frame}
+
+\begin{frame}{7}
+\end{frame}
+
+\begin{frame}{8}
+\end{frame}
+
+\begin{frame}{9}
+\end{frame}
+
+\begin{frame}{10}
+\end{frame}
+
+\begin{frame}{11}
+\end{frame}
+
+\begin{frame}{12}
+\end{frame}
+
+\begin{frame}{13}
+\end{frame}
+
+\begin{frame}{14}
+\end{frame}
+
+\begin{frame}{15}
+\end{frame}
+
+{
+\setbeamertemplate{headline}{} % no headline on title page
+\setbeamertemplate{footline}{} % no footline on title page
+\begin{frame}[c,noframenumbering]
+    \vfill
+    \huge{\centerline{\textbf{Any Questions?}}}
+    \bigskip
+    {\normalsize 
+    \centerline{\textbf{장서현(seohyun.jang@yonsei.ac.kr)}}\bigskip
+    }
+    {\footnotesize
+    \centerline{시스템 모델링 및 최적화 연구실, 연세대학교 산업공학과}\bigskip
+
+    \centerline{\textbf{SY}stems \textbf{M}odeling and \textbf{P}rogramming \textbf{L}ab}
+    \centerline{Department of Industrial Engineering, \textbf{Y}onsei University - \textbf{SYMPLY}}
+    \centerline{(\url{https://symply.yonsei.ac.kr/})}
+    }
+    \bigskip
+    \centerline{\includegraphics[width=0.4\textwidth]{logo_text.png}}
+\end{frame}
+}
+
+% {
+% \setbeamertemplate{headline}{} % no headline on title page
+% \setbeamertemplate{footline}{} % no footline on title page
+% \begin{frame}[allowframebreaks]
+% \frametitle{References}
+% \bibliographystyle{ieeetr}
+% \bibliography{references.bib}
+% \end{frame}
+% }
+
+%------------------------------------------------
+
+\end{document}
